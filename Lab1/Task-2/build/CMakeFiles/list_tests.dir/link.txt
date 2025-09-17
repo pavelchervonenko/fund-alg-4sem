@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/list_tests.dir/tests/test_list.cpp.o -o list_tests  lib/libgtest_main.a lib/libgtest.a 

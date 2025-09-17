@@ -1,0 +1,67 @@
+Start testing: Sep 15 19:27 MSK
+----------------------------------------------------------
+1/1 Testing: list_tests
+1/1 Test: list_tests
+Command: "/home/pavel/fund-alg-4sem/Lab1/Task-3/build/list_tests"
+Directory: /home/pavel/fund-alg-4sem/Lab1/Task-3/build
+"list_tests" start time: Sep 15 19:27 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/pavel/fund-alg-4sem/Lab1/Task-3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from DequeFixture
+[ RUN      ] DequeFixture.DefaultConstruct
+[       OK ] DequeFixture.DefaultConstruct (0 ms)
+[ RUN      ] DequeFixture.PushPopFrontBack
+[       OK ] DequeFixture.PushPopFrontBack (0 ms)
+[ RUN      ] DequeFixture.AtAndIndex
+[       OK ] DequeFixture.AtAndIndex (0 ms)
+[ RUN      ] DequeFixture.IterationForward
+[       OK ] DequeFixture.IterationForward (0 ms)
+[ RUN      ] DequeFixture.IterationReverse
+[       OK ] DequeFixture.IterationReverse (0 ms)
+[ RUN      ] DequeFixture.InsertErase
+[       OK ] DequeFixture.InsertErase (0 ms)
+[ RUN      ] DequeFixture.ResizeAndClear
+[       OK ] DequeFixture.ResizeAndClear (0 ms)
+[----------] 7 tests from DequeFixture (2 ms total)
+
+[----------] 3 tests from DequeCtor
+[ RUN      ] DequeCtor.InitList
+[       OK ] DequeCtor.InitList (0 ms)
+[ RUN      ] DequeCtor.CopyConstruct
+[       OK ] DequeCtor.CopyConstruct (0 ms)
+[ RUN      ] DequeCtor.MoveConstruct
+[       OK ] DequeCtor.MoveConstruct (0 ms)
+[----------] 3 tests from DequeCtor (0 ms total)
+
+[----------] 2 tests from DequeAssign
+[ RUN      ] DequeAssign.CopyAssign
+[       OK ] DequeAssign.CopyAssign (0 ms)
+[ RUN      ] DequeAssign.MoveAssign
+[       OK ] DequeAssign.MoveAssign (0 ms)
+[----------] 2 tests from DequeAssign (0 ms total)
+
+[----------] 1 test from DequeCompare
+[ RUN      ] DequeCompare.EqNeLexicographic
+[       OK ] DequeCompare.EqNeLexicographic (0 ms)
+[----------] 1 test from DequeCompare (0 ms total)
+
+[----------] 1 test from DequeSwap
+[ RUN      ] DequeSwap.Basic
+[       OK ] DequeSwap.Basic (0 ms)
+[----------] 1 test from DequeSwap (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 5 test suites ran. (4 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"list_tests" end time: Sep 15 19:27 MSK
+"list_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 19:27 MSK

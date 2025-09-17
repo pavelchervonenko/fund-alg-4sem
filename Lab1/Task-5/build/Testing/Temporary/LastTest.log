@@ -1,0 +1,90 @@
+Start testing: Sep 15 19:34 MSK
+----------------------------------------------------------
+1/1 Testing: list_tests
+1/1 Test: list_tests
+Command: "/home/pavel/fund-alg-4sem/Lab1/Task-5/build/list_tests"
+Directory: /home/pavel/fund-alg-4sem/Lab1/Task-5/build
+"list_tests" start time: Sep 15 19:34 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/pavel/fund-alg-4sem/Lab1/Task-5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 18 tests from 10 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from Vector_Construct
+[ RUN      ] Vector_Construct.Default
+[       OK ] Vector_Construct.Default (0 ms)
+[ RUN      ] Vector_Construct.InitList
+[       OK ] Vector_Construct.InitList (0 ms)
+[ RUN      ] Vector_Construct.Copy
+[       OK ] Vector_Construct.Copy (0 ms)
+[ RUN      ] Vector_Construct.Move
+[       OK ] Vector_Construct.Move (0 ms)
+[----------] 4 tests from Vector_Construct (0 ms total)
+
+[----------] 3 tests from Vector_Assign
+[ RUN      ] Vector_Assign.CopyAssign
+[       OK ] Vector_Assign.CopyAssign (0 ms)
+[ RUN      ] Vector_Assign.MoveAssign
+[       OK ] Vector_Assign.MoveAssign (0 ms)
+[ RUN      ] Vector_Assign.InitListAssign
+[       OK ] Vector_Assign.InitListAssign (0 ms)
+[----------] 3 tests from Vector_Assign (0 ms total)
+
+[----------] 2 tests from Vector_Access
+[ RUN      ] Vector_Access.AtBounds
+[       OK ] Vector_Access.AtBounds (0 ms)
+[ RUN      ] Vector_Access.FrontBackData
+[       OK ] Vector_Access.FrontBackData (0 ms)
+[----------] 2 tests from Vector_Access (0 ms total)
+
+[----------] 1 test from VectorIntFixture
+[ RUN      ] VectorIntFixture.EqualityAndOrdering
+[       OK ] VectorIntFixture.EqualityAndOrdering (0 ms)
+[----------] 1 test from VectorIntFixture (0 ms total)
+
+[----------] 1 test from Vector_Spaceship
+[ RUN      ] Vector_Spaceship.ThreeWay
+[       OK ] Vector_Spaceship.ThreeWay (0 ms)
+[----------] 1 test from Vector_Spaceship (0 ms total)
+
+[----------] 1 test from Vector_Capacity
+[ RUN      ] Vector_Capacity.ReserveAndShrink
+[       OK ] Vector_Capacity.ReserveAndShrink (0 ms)
+[----------] 1 test from Vector_Capacity (0 ms total)
+
+[----------] 3 tests from Vector_Modify
+[ RUN      ] Vector_Modify.PushPopClear
+[       OK ] Vector_Modify.PushPopClear (0 ms)
+[ RUN      ] Vector_Modify.InsertEraseMiddle
+[       OK ] Vector_Modify.InsertEraseMiddle (0 ms)
+[ RUN      ] Vector_Modify.Resize
+[       OK ] Vector_Modify.Resize (0 ms)
+[----------] 3 tests from Vector_Modify (0 ms total)
+
+[----------] 1 test from Vector_Swap
+[ RUN      ] Vector_Swap.SwapBasic
+[       OK ] Vector_Swap.SwapBasic (0 ms)
+[----------] 1 test from Vector_Swap (0 ms total)
+
+[----------] 1 test from Vector_Exception
+[ RUN      ] Vector_Exception.EraseEndInvalid
+[       OK ] Vector_Exception.EraseEndInvalid (0 ms)
+[----------] 1 test from Vector_Exception (0 ms total)
+
+[----------] 1 test from Vector_Perf
+[ RUN      ] Vector_Perf.MoveVsCopyOnRealloc
+[       OK ] Vector_Perf.MoveVsCopyOnRealloc (0 ms)
+[----------] 1 test from Vector_Perf (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 10 test suites ran. (5 ms total)
+[  PASSED  ] 18 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"list_tests" end time: Sep 15 19:34 MSK
+"list_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 19:34 MSK

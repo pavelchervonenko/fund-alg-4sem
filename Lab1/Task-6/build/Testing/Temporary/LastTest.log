@@ -1,0 +1,55 @@
+Start testing: Sep 15 19:36 MSK
+----------------------------------------------------------
+1/1 Testing: list_tests
+1/1 Test: list_tests
+Command: "/home/pavel/fund-alg-4sem/Lab1/Task-6/build/list_tests"
+Directory: /home/pavel/fund-alg-4sem/Lab1/Task-6/build
+"list_tests" start time: Sep 15 19:36 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/pavel/fund-alg-4sem/Lab1/Task-6/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from UniquePtrTest
+[ RUN      ] UniquePtrTest.DefaultCtor
+[       OK ] UniquePtrTest.DefaultCtor (0 ms)
+[ RUN      ] UniquePtrTest.FromPointer
+[       OK ] UniquePtrTest.FromPointer (0 ms)
+[ RUN      ] UniquePtrTest.MoveCtor
+[       OK ] UniquePtrTest.MoveCtor (0 ms)
+[ RUN      ] UniquePtrTest.MoveAssignReleasesOld
+[       OK ] UniquePtrTest.MoveAssignReleasesOld (0 ms)
+[ RUN      ] UniquePtrTest.Accessors
+[       OK ] UniquePtrTest.Accessors (0 ms)
+[ RUN      ] UniquePtrTest.ArrowOperator
+[       OK ] UniquePtrTest.ArrowOperator (0 ms)
+[ RUN      ] UniquePtrTest.Release
+[       OK ] UniquePtrTest.Release (0 ms)
+[ RUN      ] UniquePtrTest.ResetDeletesOld
+[       OK ] UniquePtrTest.ResetDeletesOld (0 ms)
+[ RUN      ] UniquePtrTest.ResetNull
+[       OK ] UniquePtrTest.ResetNull (0 ms)
+[ RUN      ] UniquePtrTest.Swap
+[       OK ] UniquePtrTest.Swap (0 ms)
+[ RUN      ] UniquePtrTest.ArrayBasic
+[       OK ] UniquePtrTest.ArrayBasic (0 ms)
+[ RUN      ] UniquePtrTest.ArrayRelease
+[       OK ] UniquePtrTest.ArrayRelease (0 ms)
+[ RUN      ] UniquePtrTest.ArrayReset
+[       OK ] UniquePtrTest.ArrayReset (0 ms)
+[ RUN      ] UniquePtrTest.ArrayDestructor
+[       OK ] UniquePtrTest.ArrayDestructor (0 ms)
+[----------] 14 tests from UniquePtrTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"list_tests" end time: Sep 15 19:36 MSK
+"list_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 19:36 MSK

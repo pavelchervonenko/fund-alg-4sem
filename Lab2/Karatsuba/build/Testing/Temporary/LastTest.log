@@ -1,0 +1,51 @@
+Start testing: Sep 17 12:42 MSK
+----------------------------------------------------------
+1/1 Testing: MyTests
+1/1 Test: MyTests
+Command: "/home/pavel/fund-alg-4sem/Lab2/Karatsuba/build/tests"
+Directory: /home/pavel/fund-alg-4sem/Lab2/Karatsuba/build
+"MyTests" start time: Sep 17 12:42 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/pavel/fund-alg-4sem/Lab2/Karatsuba/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from Fx
+[ RUN      ] Fx.ParseBasicAndZeros
+[       OK ] Fx.ParseBasicAndZeros (0 ms)
+[ RUN      ] Fx.StreamInOut
+[       OK ] Fx.StreamInOut (0 ms)
+[ RUN      ] Fx.CopyMoveAssign
+[       OK ] Fx.CopyMoveAssign (0 ms)
+[ RUN      ] Fx.CompareOperators
+[       OK ] Fx.CompareOperators (0 ms)
+[ RUN      ] Fx.AddSubSignsAndTrim
+[       OK ] Fx.AddSubSignsAndTrim (0 ms)
+[ RUN      ] Fx.MulSmallVsLL
+[       OK ] Fx.MulSmallVsLL (0 ms)
+[ RUN      ] Fx.MulSwitchSmallLarge
+[       OK ] Fx.MulSwitchSmallLarge (1 ms)
+[ RUN      ] Fx.MulSigns
+[       OK ] Fx.MulSigns (0 ms)
+[ RUN      ] Fx.DivBasicBranches
+[       OK ] Fx.DivBasicBranches (0 ms)
+[ RUN      ] Fx.DivSigns
+[       OK ] Fx.DivSigns (0 ms)
+[ RUN      ] Fx.LLongMinConstructor
+[       OK ] Fx.LLongMinConstructor (0 ms)
+[ RUN      ] Fx.RandomKaratsubaProperty
+[       OK ] Fx.RandomKaratsubaProperty (125 ms)
+[----------] 12 tests from Fx (131 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (131 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"MyTests" end time: Sep 17 12:42 MSK
+"MyTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 17 12:42 MSK

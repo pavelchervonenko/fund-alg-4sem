@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/list_app.dir/src/main.cpp.o -o list_app 
